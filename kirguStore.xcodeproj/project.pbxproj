@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B80E6622BC4883CCCDA7814 /* Pods_kirguStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9D43F386F78F06448E4693 /* Pods_kirguStore.framework */; };
+		EE39AE632401974400334BF1 /* AchieveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39AE622401974400334BF1 /* AchieveView.swift */; };
+		EE39AE652401979D00334BF1 /* AchieveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39AE642401979D00334BF1 /* AchieveViewController.swift */; };
+		EE39AE672401981D00334BF1 /* BaseFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39AE662401981D00334BF1 /* BaseFormView.swift */; };
+		EE39AE6A24019B2800334BF1 /* AchieveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39AE6924019B2800334BF1 /* AchieveCell.swift */; };
+		EE39AE7024019C4E00334BF1 /* Achieve.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39AE6F24019C4E00334BF1 /* Achieve.swift */; };
+		EE39AE7324019C7D00334BF1 /* AchievePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39AE7224019C7D00334BF1 /* AchievePresenter.swift */; };
+		EE39AE752401E4A600334BF1 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39AE742401E4A600334BF1 /* Rating.swift */; };
+		EE39AE792401E92C00334BF1 /* RatingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39AE782401E92C00334BF1 /* RatingCell.swift */; };
+		EE39AE7C2401FCFC00334BF1 /* FortunaAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE39AE7B2401FCFC00334BF1 /* FortunaAlert.swift */; };
+		EE43B05524016DB30094CB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43B05424016DB30094CB9B /* AppDelegate.swift */; };
+		EE43B05E24016DB60094CB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE43B05D24016DB60094CB9B /* Assets.xcassets */; };
+		EE43B06124016DB60094CB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE43B05F24016DB60094CB9B /* LaunchScreen.storyboard */; };
+		EE43B069240172DE0094CB9B /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43B068240172DE0094CB9B /* CatalogView.swift */; };
+		EE43B06C2401737E0094CB9B /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43B06B2401737E0094CB9B /* CatalogViewController.swift */; };
+		EE43B06E240174100094CB9B /* CatalogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43B06D240174100094CB9B /* CatalogCell.swift */; };
+		EE43B072240176BF0094CB9B /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43B071240176BF0094CB9B /* Catalog.swift */; };
+		EE43B074240179190094CB9B /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43B073240179190094CB9B /* CatalogPresenter.swift */; };
+		EE43B077240191730094CB9B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43B076240191730094CB9B /* NetworkManager.swift */; };
+		EE43B079240191900094CB9B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43B078240191900094CB9B /* API.swift */; };
+		EE8322D924021B9C0014A729 /* FortunaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8322D824021B9C0014A729 /* FortunaViewController.swift */; };
+		EE8322DC24023DF20014A729 /* FortunaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8322DB24023DF20014A729 /* FortunaView.swift */; };
+		EE8322DE240253B80014A729 /* FortunaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8322DD240253B80014A729 /* FortunaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		240591C0DD3EB3529680ADA5 /* Pods-kirguStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kirguStore.release.xcconfig"; path = "Target Support Files/Pods-kirguStore/Pods-kirguStore.release.xcconfig"; sourceTree = "<group>"; };
+		25D84475E696C37BBA2E4D29 /* Pods-kirguStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kirguStore.debug.xcconfig"; path = "Target Support Files/Pods-kirguStore/Pods-kirguStore.debug.xcconfig"; sourceTree = "<group>"; };
+		CD9D43F386F78F06448E4693 /* Pods_kirguStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kirguStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE39AE622401974400334BF1 /* AchieveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchieveView.swift; sourceTree = "<group>"; };
+		EE39AE642401979D00334BF1 /* AchieveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchieveViewController.swift; sourceTree = "<group>"; };
+		EE39AE662401981D00334BF1 /* BaseFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFormView.swift; sourceTree = "<group>"; };
+		EE39AE6924019B2800334BF1 /* AchieveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchieveCell.swift; sourceTree = "<group>"; };
+		EE39AE6F24019C4E00334BF1 /* Achieve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achieve.swift; sourceTree = "<group>"; };
+		EE39AE7224019C7D00334BF1 /* AchievePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievePresenter.swift; sourceTree = "<group>"; };
+		EE39AE742401E4A600334BF1 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		EE39AE782401E92C00334BF1 /* RatingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingCell.swift; sourceTree = "<group>"; };
+		EE39AE7B2401FCFC00334BF1 /* FortunaAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortunaAlert.swift; sourceTree = "<group>"; };
+		EE43B05124016DB30094CB9B /* kirguStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kirguStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE43B05424016DB30094CB9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE43B05D24016DB60094CB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE43B06024016DB60094CB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE43B06224016DB60094CB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE43B068240172DE0094CB9B /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		EE43B06B2401737E0094CB9B /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		EE43B06D240174100094CB9B /* CatalogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogCell.swift; sourceTree = "<group>"; };
+		EE43B071240176BF0094CB9B /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		EE43B073240179190094CB9B /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
+		EE43B076240191730094CB9B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EE43B078240191900094CB9B /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		EE8322D824021B9C0014A729 /* FortunaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortunaViewController.swift; sourceTree = "<group>"; };
+		EE8322DB24023DF20014A729 /* FortunaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortunaView.swift; sourceTree = "<group>"; };
+		EE8322DD240253B80014A729 /* FortunaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortunaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE43B04E24016DB30094CB9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B80E6622BC4883CCCDA7814 /* Pods_kirguStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7E64C138C9E065DC5A8BBFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25D84475E696C37BBA2E4D29 /* Pods-kirguStore.debug.xcconfig */,
+				240591C0DD3EB3529680ADA5 /* Pods-kirguStore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE39AE61240196F500334BF1 /* Achieve */ = {
+			isa = PBXGroup;
+			children = (
+				EE39AE6D24019C3A00334BF1 /* Model */,
+				EE39AE6B24019C1900334BF1 /* View */,
+				EE39AE7124019C5300334BF1 /* Presenter */,
+			);
+			path = Achieve;
+			sourceTree = "<group>";
+		};
+		EE39AE6B24019C1900334BF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE39AE6C24019C2B00334BF1 /* Cell */,
+				EE39AE622401974400334BF1 /* AchieveView.swift */,
+				EE39AE642401979D00334BF1 /* AchieveViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE39AE6C24019C2B00334BF1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EE39AE6924019B2800334BF1 /* AchieveCell.swift */,
+				EE39AE782401E92C00334BF1 /* RatingCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EE39AE6D24019C3A00334BF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE39AE6F24019C4E00334BF1 /* Achieve.swift */,
+				EE39AE742401E4A600334BF1 /* Rating.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE39AE7124019C5300334BF1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EE39AE7224019C7D00334BF1 /* AchievePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EE39AE7A2401FCB600334BF1 /* FortunaAlert */ = {
+			isa = PBXGroup;
+			children = (
+				EE39AE7B2401FCFC00334BF1 /* FortunaAlert.swift */,
+				EE8322D824021B9C0014A729 /* FortunaViewController.swift */,
+			);
+			path = FortunaAlert;
+			sourceTree = "<group>";
+		};
+		EE43B04824016DB30094CB9B = {
+			isa = PBXGroup;
+			children = (
+				EE43B05324016DB30094CB9B /* kirguStore */,
+				EE43B05224016DB30094CB9B /* Products */,
+				B7E64C138C9E065DC5A8BBFC /* Pods */,
+				FE3F42D49E2CC394F0068158 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE43B05224016DB30094CB9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE43B05124016DB30094CB9B /* kirguStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE43B05324016DB30094CB9B /* kirguStore */ = {
+			isa = PBXGroup;
+			children = (
+				EE8322DA24023DBB0014A729 /* FortunaView */,
+				EE43B05424016DB30094CB9B /* AppDelegate.swift */,
+				EE39AE7A2401FCB600334BF1 /* FortunaAlert */,
+				EE43B06A240172E30094CB9B /* Catalog */,
+				EE39AE61240196F500334BF1 /* Achieve */,
+				EE43B07A2401929A0094CB9B /* NetworkManager */,
+				EE43B07B240192BE0094CB9B /* Tools */,
+			);
+			path = kirguStore;
+			sourceTree = "<group>";
+		};
+		EE43B06A240172E30094CB9B /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				EE43B070240176B10094CB9B /* Model */,
+				EE43B06F240176A40094CB9B /* View */,
+				EE43B0752401791D0094CB9B /* Presenter */,
+			);
+			path = Catalog;
+			sourceTree = "<group>";
+		};
+		EE43B06F240176A40094CB9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE43B068240172DE0094CB9B /* CatalogView.swift */,
+				EE43B06B2401737E0094CB9B /* CatalogViewController.swift */,
+				EE43B06D240174100094CB9B /* CatalogCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE43B070240176B10094CB9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE43B071240176BF0094CB9B /* Catalog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE43B0752401791D0094CB9B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EE43B073240179190094CB9B /* CatalogPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EE43B07A2401929A0094CB9B /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				EE43B076240191730094CB9B /* NetworkManager.swift */,
+				EE43B078240191900094CB9B /* API.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		EE43B07B240192BE0094CB9B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EE43B05D24016DB60094CB9B /* Assets.xcassets */,
+				EE43B05F24016DB60094CB9B /* LaunchScreen.storyboard */,
+				EE43B06224016DB60094CB9B /* Info.plist */,
+				EE39AE662401981D00334BF1 /* BaseFormView.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EE8322DA24023DBB0014A729 /* FortunaView */ = {
+			isa = PBXGroup;
+			children = (
+				EE8322DB24023DF20014A729 /* FortunaView.swift */,
+				EE8322DD240253B80014A729 /* FortunaViewController.swift */,
+			);
+			path = FortunaView;
+			sourceTree = "<group>";
+		};
+		FE3F42D49E2CC394F0068158 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD9D43F386F78F06448E4693 /* Pods_kirguStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE43B05024016DB30094CB9B /* kirguStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE43B06524016DB60094CB9B /* Build configuration list for PBXNativeTarget "kirguStore" */;
+			buildPhases = (
+				D638C1FCF7BC3426C5D71D35 /* [CP] Check Pods Manifest.lock */,
+				EE43B04D24016DB30094CB9B /* Sources */,
+				EE43B04E24016DB30094CB9B /* Frameworks */,
+				EE43B04F24016DB30094CB9B /* Resources */,
+				1B80E85B060AC33170A08925 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kirguStore;
+			productName = kirguStore;
+			productReference = EE43B05124016DB30094CB9B /* kirguStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE43B04924016DB30094CB9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Rizabek Abdulgamidov";
+				TargetAttributes = {
+					EE43B05024016DB30094CB9B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = EE43B04C24016DB30094CB9B /* Build configuration list for PBXProject "kirguStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE43B04824016DB30094CB9B;
+			productRefGroup = EE43B05224016DB30094CB9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE43B05024016DB30094CB9B /* kirguStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE43B04F24016DB30094CB9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE43B06124016DB60094CB9B /* LaunchScreen.storyboard in Resources */,
+				EE43B05E24016DB60094CB9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B80E85B060AC33170A08925 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kirguStore/Pods-kirguStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kirguStore/Pods-kirguStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kirguStore/Pods-kirguStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D638C1FCF7BC3426C5D71D35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kirguStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE43B04D24016DB30094CB9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE39AE792401E92C00334BF1 /* RatingCell.swift in Sources */,
+				EE43B072240176BF0094CB9B /* Catalog.swift in Sources */,
+				EE39AE632401974400334BF1 /* AchieveView.swift in Sources */,
+				EE43B06C2401737E0094CB9B /* CatalogViewController.swift in Sources */,
+				EE8322DE240253B80014A729 /* FortunaViewController.swift in Sources */,
+				EE43B074240179190094CB9B /* CatalogPresenter.swift in Sources */,
+				EE39AE672401981D00334BF1 /* BaseFormView.swift in Sources */,
+				EE8322DC24023DF20014A729 /* FortunaView.swift in Sources */,
+				EE43B077240191730094CB9B /* NetworkManager.swift in Sources */,
+				EE39AE7324019C7D00334BF1 /* AchievePresenter.swift in Sources */,
+				EE39AE7024019C4E00334BF1 /* Achieve.swift in Sources */,
+				EE43B069240172DE0094CB9B /* CatalogView.swift in Sources */,
+				EE8322D924021B9C0014A729 /* FortunaViewController.swift in Sources */,
+				EE39AE652401979D00334BF1 /* AchieveViewController.swift in Sources */,
+				EE43B05524016DB30094CB9B /* AppDelegate.swift in Sources */,
+				EE39AE6A24019B2800334BF1 /* AchieveCell.swift in Sources */,
+				EE39AE7C2401FCFC00334BF1 /* FortunaAlert.swift in Sources */,
+				EE39AE752401E4A600334BF1 /* Rating.swift in Sources */,
+				EE43B079240191900094CB9B /* API.swift in Sources */,
+				EE43B06E240174100094CB9B /* CatalogCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE43B05F24016DB60094CB9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE43B06024016DB60094CB9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE43B06324016DB60094CB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE43B06424016DB60094CB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE43B06624016DB60094CB9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D84475E696C37BBA2E4D29 /* Pods-kirguStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAXK59673U;
+				INFOPLIST_FILE = kirguStore/Tools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rizabek-Abdulgamidov.kirguStore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE43B06724016DB60094CB9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240591C0DD3EB3529680ADA5 /* Pods-kirguStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAXK59673U;
+				INFOPLIST_FILE = kirguStore/Tools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Rizabek-Abdulgamidov.kirguStore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE43B04C24016DB30094CB9B /* Build configuration list for PBXProject "kirguStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE43B06324016DB60094CB9B /* Debug */,
+				EE43B06424016DB60094CB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE43B06524016DB60094CB9B /* Build configuration list for PBXNativeTarget "kirguStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE43B06624016DB60094CB9B /* Debug */,
+				EE43B06724016DB60094CB9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE43B04924016DB30094CB9B /* Project object */;
+}
